@@ -24,5 +24,5 @@ def tailleMaxRec(a, i, j):
 
 a = "ATCGGCTGCATTTCGA"
 print(tailleMaxRec(a, 2, 12))
-print(tailleMaxRec(a, 0, len(a)-1))
+print(tailleMaxRec(a, 0, len(a)-1)) #Too slow
 #print(tailleMaxRec("AT", 0, 1))
